@@ -72,12 +72,3 @@ skCoin.addBlock(new Block(1,"29/04/2020", {amount: 4}));
 
 console.log('Mining Block 2...');
 skCoin.addBlock(new Block(2,"30/04/2020", {amount: 10}));
-
-// console.log('Is blockchain valid? ' + skCoin.isChainValid());
-
-// skCoin.chain[1].data = {amount: 1000};
-// skCoin.chain[1].hash = skCoin.chain[1].calculateHash();
-// console.log('Is blockchain valid? ' + skCoin.isChainValid());
-
-// console.log(JSON.stringify(skCoin, null, 4)); 
-
